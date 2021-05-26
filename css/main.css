@@ -1,0 +1,62 @@
+html, body{
+    overflow-x: hidden;
+}
+
+.hidden{
+    display: none;
+    visibility: hidden;
+}
+
+.affix {
+    top:50px;
+    right:0;
+    position:fixed;
+}
+
+.total-stats{
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 20px;
+    font-weight: bolder;
+    background-color: #eee;
+    -webkit-box-shadow: 2px 4px 5px 3px rgba(0,0,0,0.17);
+    box-shadow: 2px 4px 5px 3px rgba(0,0,0,0.17);
+}
+
+canvas{
+    margin-bottom: 30px;
+}
+
+.del-col{
+    text-align:center;
+}
+.delete-btn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float:none;
+    margin:0 auto;
+    border: none;
+    background: none;
+    padding: 0;
+    line-height:12.5px;
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color:red;
+}
+
+.delete-btn svg{
+    vertical-align: top;
+    width: 50%;
+    fill:white;
+}
+
+.data-column{
+    max-width: 70vw!important;
+    word-wrap: break-word;
+    /*white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+}
